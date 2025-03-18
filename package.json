@@ -1,0 +1,27 @@
+{
+  "name": "welcome-looper",
+  "version": "1.0.0",
+  "description": "Welcome repository for the Looper browser automation platform",
+  "main": "simple-example.js",
+  "scripts": {
+    "start": "node simple-example.js",
+    "dev": "nodemon simple-example.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "browser",
+    "automation",
+    "puppeteer",
+    "scraping",
+    "looper"
+  ],
+  "author": "Looper Team",
+  "license": "MIT",
+  "dependencies": {
+    "@agentdeskai/browser-tools-server": "^1.2.0",
+    "puppeteer": "^21.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
